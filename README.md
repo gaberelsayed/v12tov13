@@ -1,1 +1,1 @@
-# v12tov13
+# v12toV13 Lisansı mevcuttur paylaşılması yasaktır
