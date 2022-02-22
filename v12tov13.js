@@ -13,7 +13,7 @@ module.exports.run = async (client, message, args) => {
     );
   }
   let v13kod = v12kod
-    .split("channel.send(embed);")
+    .split("channel.send(embed);")            
     .join("channel.send({ embeds: [embed, embed2] });")
     .split("channel.send('Hello!', { embed });")
     .join("channel.send({ content: 'Hello!', embeds: [embed, embed2] });")
